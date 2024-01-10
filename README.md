@@ -1,70 +1,53 @@
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction
+This project demonstrates Salesforce data interaction using Node.js and [jsforce](https://jsforce.github.io/).
 
-In the project directory, you can run:
+### Requirements
+Ensure you have the following libraries installed:
+- jsforce
+- dotenv
 
-### `npm start`
+Run the following command to install the required dependencies:
+`npm install jsforce dotenv`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Clone and Setup
+### Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`git clone https://github.com/tomsouza4/my-salesforce-app.git`
 
-### `npm test`
+Navigate to the project directory:
+`cd my-salesforce-app`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install dependencies:
+`npm install`
 
-### `npm run build`
+Run the React app:
+`npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Execute the script:
+`node src/CreateFields.js`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Output Sample
+Access Token: 00D8b0000022ug0!AQ8AQDTB8oa2CJdKDtx7t68ZbGid27hrU9BhTyG7WLbZBila46v5F7Gzap9pWCxVF8VDfUk.jD7h7t9q6mbYP._bjjDSQc22
+Instance URL: https://wise-goat-rgjb32-dev-ed.trailblaze.my.salesforce.com
+User ID: 0058b00000HEcA4AAL
+Org ID: 00D8b0000022ug0EAA
+Total records: 22
+Fetched records: 22
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Fetched 22 records:
+- My Account #1 (0018b00002XvzaDAAR)
+- My Account #2 (0018b00002XvzaEAAR)
+- My Account #1 (0018b00002XvzaIAAR)
+- My Account #2 (0018b00002XvzaJAAR)
+...
+- Postman (0018b00002NN8lBAAT)
+- Captain Bly’s Finest Treasure Chests (0018b00002NNJ56AAH)
 
-### `npm run eject`
+# Important Notes
+If your Salesforce password and token include a single quote, make sure to escape it with a backslash (\) to prevent issues with code interpretation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Additional Note
+Be cautious with special characters like single quotes in your Salesforce password or token, as they might affect code interpretation.

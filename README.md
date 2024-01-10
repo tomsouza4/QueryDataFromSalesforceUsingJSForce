@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Introduction
 This project demonstrates Salesforce data interaction using Node.js and [jsforce](https://jsforce.github.io/).
+This is a POC designed to understand how A React App using Node can fetch data from a Salesforce org levaraging jsforce lib that communicates through APIs to Salesforce
 
 ### Requirements
 Ensure you have the following libraries installed:

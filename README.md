@@ -55,3 +55,12 @@ If your Salesforce password and token include a single quote, make sure to escap
 
 ### Additional Note
 Be cautious with special characters like single quotes in your Salesforce password or token, as they might affect code interpretation.
+
+### Connected App to be created in Salesforce
+- Create the connected app
+<img width="515" alt="image" src="https://github.com/tomsouza4/my-salesforce-app/assets/11336182/bfa6f3cd-3873-4e1b-a1df-ec38de23a20b">
+
+- Set the Permitted Users & IP Relaxation
+<img width="937" alt="image" src="https://github.com/tomsouza4/my-salesforce-app/assets/11336182/52232489-fadb-4f8f-8daa-b3f91aeb206a">
+
+

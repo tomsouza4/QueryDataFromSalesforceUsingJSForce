@@ -31,7 +31,8 @@ Execute the script:
 `node src/CreateFields.js`
 
 # Output Sample
-Access Token: 00D8b0000022ug0!AQ8AQDTB8oa2CJdKDtx7t68ZbGid27hrU9BhTyG7WLbZBila46v5F7Gzap9pWCxVF8VDfUk.jD7h7t9q6mbYP._bjjDSQc22
+Access Token Example: 
+`00D8b0000022ug0!AQ8AQDTB8oa2CJdKDtx7t68ZbGid27hrU9BhTyG7WLbZBila46v5F7Gzap9pWCxVF8VDfUk.jD7h7t9q6mbYP._bjjDSQc22`
 
 Instance URL: https://wise-goat-rgjb32-dev-ed.trailblaze.my.salesforce.com
 

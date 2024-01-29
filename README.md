@@ -11,24 +11,37 @@ Ensure you have the following libraries installed:
 - dotenv
 
 Run the following command to install the required dependencies:
-`npm install jsforce dotenv`
+
+```sh
+npm install jsforce dotenv
+```
 
 # Clone and Setup
 ### Clone the repository:
 
-`git clone https://github.com/tomsouza4/my-salesforce-app.git`
+```sh
+git clone https://github.com/tomsouza4/my-salesforce-app.git
+```
 
 Navigate to the project directory:
-`cd my-salesforce-app`
+```sh 
+cd my-salesforce-app
+```
 
 Install dependencies:
-`npm install`
+```sh 
+npm install
+```
 
 Run the React app:
-`npm start`
+```sh
+npm start
+```
 
 Execute the script:
-`node src/CreateFields.js`
+```sh
+node src/CreateFields.js
+```
 
 # Output Sample
 Access Token Example: 

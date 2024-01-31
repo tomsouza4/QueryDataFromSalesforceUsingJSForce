@@ -20,7 +20,7 @@ npm install jsforce dotenv
 ### Clone the repository:
 
 ```sh
-git clone https://github.com/tomsouza4/my-salesforce-app.git
+git clone https://github.com/tomsouza4/QueryDataFromSalesforceUsingJSForce.git
 ```
 
 Navigate to the project directory:

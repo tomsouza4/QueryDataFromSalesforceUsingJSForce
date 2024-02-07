@@ -25,7 +25,7 @@ git clone https://github.com/tomsouza4/query-data-from-salesforce-using-jsforce.
 
 Navigate to the project directory:
 ```sh 
-cd my-salesforce-app
+cd query-data-from-salesforce-using-jsforce
 ```
 
 Install dependencies:
